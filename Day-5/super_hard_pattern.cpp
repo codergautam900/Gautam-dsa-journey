@@ -87,8 +87,26 @@ int main() {
 
     // Question:- 21 
      
-    
+    // int n;
+    // cout<<"Enter the row: ";
+    // cin >> n;
+    // for(int row =1; row<=n; row++){
+    //     for(int col=1; col<=n-row; col++) {
+    //         cout<<" ";
+    //     }
+    //     for(char name = 'A'; name<= 'A' + row-1; name++){
 
+
+    //         cout<<name<< "";
+
+    //     } 
+    //     cout<<endl;
+    // }
+
+
+
+    // Question:- 22 
+     
     int n;
     cout<<"Enter the row: ";
     cin >> n;
@@ -96,14 +114,17 @@ int main() {
         for(int col=1; col<=n-row; col++) {
             cout<<" ";
         }
-        for(char name = 'A'; name<= 'A' + row-1; name++){
+        for(int col =row; col>=1; col--){
 
 
-            cout<<name<< "";
+            cout<<col<< "";
 
         } 
+
+        cout<<" ";
         cout<<endl;
     }
+
 
 
 
