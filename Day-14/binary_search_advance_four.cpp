@@ -61,7 +61,7 @@ using namespace std;
 
 
 
-// Question:-1 first and last position find in sorted array
+// Question:-1 count of occurrences of a number in sorted array
 
 int main(){
 
